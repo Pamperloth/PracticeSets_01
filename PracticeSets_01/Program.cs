@@ -10,6 +10,13 @@ namespace PracticeSets_01
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Enter Number: ");
+            int num = Convert.ToInt32(Console.ReadLine());
+
+            if (num % 2 == 0)
+            {
+                Console.WriteLine("The Number" + num + "in Even");
+            }
         }
     }
 }
